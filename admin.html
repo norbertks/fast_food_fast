@@ -7,7 +7,7 @@
     <title>FAST FOOD FIRST</title>
     <link rel="stylesheet" href="styles/home.css" />
   </head>
-  <body>
+  <body class="admin_body">
     <div class="nav_bar">
       <div class="nav_heading"><h1>FAST FOOD FIRST</h1></div>
       <div class="space"></div>
@@ -24,14 +24,55 @@
       <a href="admin_login"> <strong> >ADMINISTRATOR</strong></a>
     </div>
     <div class="side_bar">
-      <a class="active" href="aaa">Dashboard</a>
-      <a href="eee">Food Category</a>
-      <a href="bbb">Menu</a>
-      <a href="ccc">Order Status</a>
-      <a href="ddd">History</a>
+      <a class="active" href="admin.html">Dashboard</a>
+      <a href="admin.html">Food Category</a>
+      <a href="admin.html">Order History</a>
+      <a href="admin.html">Customers</a>
     </div>
     <div class="main_div">
-      <h1>Dashboard</h1>
+      <h1>Order management</h1>
+      <div class="dashboard">
+        <table>
+          <tr>
+            <td>Order ID#</td>
+            <td>Date & Time</td>
+            <td>Food Cart</td>
+            <td>Customer contact</td>
+            <td>Order Status</td>
+          </tr>
+          <tr>
+            <td>A01</td>
+            <td>
+              June 16, 2022<br />
+              13:05
+            </td>
+            <td><button>View</button> Chickem wings</td>
+            <td>+256706068907</td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <td>A02</td>
+            <td>
+              June 16, 2022
+              <br />
+              13:55
+            </td>
+            <td><button>View</button> Pilau</td>
+            <td>+256706068907</td>
+            <td>Preparing</td>
+          </tr>
+          <tr>
+            <td>A03</td>
+            <td>
+              June 16, 2022 <br />
+              13:45
+            </td>
+            <td><button>View</button> Buffet</td>
+            <td>+256706068907</td>
+            <td>Delivering</td>
+          </tr>
+        </table>
+      </div>
     </div>
   </body>
 </html>
